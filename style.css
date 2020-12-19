@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background: #6888A6;
+}
+
+.container {
+  max-width: 900px;
+  text-align: center;
+  margin: 40px auto 60px;
+}
+
+header {
+  text-align: center;
+  background: #F2D6A2;
+  padding: 20px;
+}
+nav ul li {
+  display: inline;
+}
+header nav a{
+  color: white;
+  background: #F2D6A2;
+  padding: 5px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #BF5E70;
+}
+
+.pseudo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.pseudo h1:first-child {
+  color: #BF5E70;
+}
+/*the contact form should not be changed*/
+.contact-form {
+  background: #D9BB62;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.submit input {
+background: #6888A6;
+color: white;
+padding: 5px 20px;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+textarea {
+  border-radius: 3px;
+  font-family: sans-serif;
+  padding: 10px;
+
+}
+
+select {
+  border-radius: 3px;
+  padding: 10px;
+  width: 190px;
+}
+
+label {
+  font-weight: bold;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-position: center;
+}
+@font-face {
+  font-family: 'open sans', sans-serif;
+}
+
+body {
+  background-color: #f2d6a2;
+}
+
+.section {
+  background-color: #f2d6a2;
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 20px;
+
+}
+p {
+  color: #547CBC;
+  font-family: 'open sans', sans-serif;
+  line-height: 1em;
+  text-align: center;
+}
+h1 {
+  color: #BF5E70;
+  font-family: 'open sans', sans-serif;
+  font-size: 40px;
+
+}
+
+h2 {
+  color: #6B88A6;
+  font-family: 'open sans', sans-serif;
+  text-align: center;
+}
+
+.intro {
+  border: 5px solid #000000;
+  padding: 20px;
+  margin-left: 50px;
+  width: 275px;
+  border-radius: 10px;
+
+}
+
+.navigation {
+  color: #547CBC;
+  font-family: 'open sans', sans-serif;
+  left: 10px;
+  margin: 10px;
+  position: fixed;
+  top: 10px;
+}
+
+.icons {
+  float: right;
+}
+
+.lorem {
+  text-transform: capitalize;
+}
+
+footer {
+  float: left;
+ margin: 40px;
+
+}
+
+.yarn {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+ @keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 200%;
+}
+ to {
+   margin-left: 0%;
+   width: 100%;
+   }
+ }
+
+ h1:hover {
+   background-color: #6888A6;
+   width: 600px;
+   transition: 3s;
+   padding: 40px;
+ }
+ul {
+  list-style: inside circle;
+  width: 300px;
+}
+
+li {
+  margin: 10px 0px 0px 0px;
+}
+
+img {
+  padding: 40px;
+  margin: 40px;
+}
